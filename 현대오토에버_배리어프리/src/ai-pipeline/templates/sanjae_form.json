@@ -1,0 +1,120 @@
+{
+  "form_type": "sanjae",
+  "form_title_ko": "산업재해보상보험 요양급여 신청서",
+  "form_title_en": "Workers' Compensation Medical Care Application",
+  "official_source": "근로복지공단 토탈서비스 (https://total.comwel.or.kr)",
+  "fields": {
+    "applicant_name_ko": {
+      "label_ko": "신청인 성명 (한국어)",
+      "type": "string",
+      "required": true,
+      "example": "응우옌 반 안"
+    },
+    "applicant_name_native": {
+      "label_ko": "신청인 성명 (모국어)",
+      "type": "string",
+      "required": true,
+      "example": "Nguyễn Văn An"
+    },
+    "applicant_nationality": {
+      "label_ko": "국적",
+      "type": "string",
+      "required": true,
+      "example": "베트남"
+    },
+    "applicant_visa": {
+      "label_ko": "체류자격",
+      "type": "string",
+      "required": true,
+      "example": "E-9"
+    },
+    "applicant_phone": {
+      "label_ko": "연락처",
+      "type": "string",
+      "required": true,
+      "example": "010-XXXX-XXXX"
+    },
+    "employer_name": {
+      "label_ko": "사업장명",
+      "type": "string",
+      "required": true,
+      "example": "(주)○○도금"
+    },
+    "employer_address": {
+      "label_ko": "사업장 소재지",
+      "type": "string",
+      "required": true,
+      "example": "경기도 안산시 단원구 ○○로 123"
+    },
+    "employer_business_no": {
+      "label_ko": "사업자등록번호",
+      "type": "string",
+      "required": false,
+      "example": "123-45-67890"
+    },
+    "occurred_at": {
+      "label_ko": "재해발생 일시",
+      "type": "datetime",
+      "required": true,
+      "example": "2026-07-15 14:30"
+    },
+    "occurred_location": {
+      "label_ko": "재해발생 장소",
+      "type": "string",
+      "required": true,
+      "example": "사업장 내 도금 작업장"
+    },
+    "incident_description": {
+      "label_ko": "재해발생 경위",
+      "type": "text",
+      "required": true,
+      "example": "프레스 작업 중 안전장치가 작동하지 않아 좌측 손이 협착되어 검지가 절단되는 사고가 발생함."
+    },
+    "incident_cause": {
+      "label_ko": "재해발생 원인",
+      "type": "text",
+      "required": true,
+      "example": "안전장치 미작동 및 안전교육 미실시"
+    },
+    "injury_part": {
+      "label_ko": "상병 부위",
+      "type": "string",
+      "required": true,
+      "example": "좌측 제2지(검지) 절단"
+    },
+    "injury_diagnosis": {
+      "label_ko": "상병명",
+      "type": "string",
+      "required": false,
+      "example": "수지 절단상"
+    },
+    "treatment_hospital": {
+      "label_ko": "치료 의료기관",
+      "type": "string",
+      "required": false,
+      "example": "○○병원"
+    },
+    "evidence_summary": {
+      "label_ko": "첨부 증거 요약",
+      "type": "string",
+      "required": false,
+      "example": "사고 현장 사진 4장, 영상 1건, GPS, SHA-256 해시 인증"
+    },
+    "witnesses": {
+      "label_ko": "목격자 진술",
+      "type": "text",
+      "required": false,
+      "example": "동료 김○○이 사고 현장을 목격하여 즉시 119에 신고"
+    }
+  },
+  "writing_examples": [
+    {
+      "scenario": "프레스 협착 사고 (제조업)",
+      "good_example_korean": "2026년 7월 15일 14시 30분경 신청인은 사업장 내 도금 작업장에서 프레스 작업 중이었음. 평소 작동하던 안전 양수 작동 장치가 작동하지 않은 상태에서 좌측 손이 프레스 금형에 협착되어 좌측 제2지(검지)가 절단되는 재해를 입었음. 즉시 동료 근로자가 119에 신고하여 ○○병원으로 응급 이송되었음."
+    },
+    {
+      "scenario": "추락 사고 (건설업)",
+      "good_example_korean": "2026년 7월 20일 09시 15분경 신청인은 신축 공사장 3층에서 거푸집 해체 작업 중이었음. 안전난간이 미설치된 개구부에서 발을 헛디뎌 약 6m 아래 1층으로 추락하였음. 추락 직후 의식을 잃었고, 동료가 119에 신고하여 △△대학병원으로 이송되었음."
+    }
+  ]
+}
