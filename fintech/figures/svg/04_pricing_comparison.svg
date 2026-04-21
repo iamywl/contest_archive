@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" font-family="-apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+  <rect width="1280" height="760" fill="#ffffff"/>
+
+  <!-- Header -->
+  <text x="80" y="76" font-size="28" font-weight="700" fill="#0f172a">수수료·가격 모델 비교</text>
+  <text x="80" y="106" font-size="14" fill="#64748b">현행 RA·뱅킹과 본 제안의 진입 위치</text>
+  <line x1="80" y1="130" x2="1200" y2="130" stroke="#e2e8f0" stroke-width="1"/>
+
+  <g transform="translate(80,170)" font-size="12" fill="#0f172a">
+
+    <!-- Header row -->
+    <g font-size="11" font-weight="700" fill="#94a3b8" letter-spacing="1.5">
+      <text x="0" y="0">SERVICE</text>
+      <text x="430" y="0" text-anchor="middle">최소 가입금</text>
+      <text x="640" y="0" text-anchor="middle">기본 수수료</text>
+      <text x="850" y="0" text-anchor="middle">유료 티어</text>
+      <text x="1080" y="0" text-anchor="middle">시나리오·XAI</text>
+    </g>
+    <line x1="0" y1="14" x2="1200" y2="14" stroke="#0f172a" stroke-width="1"/>
+
+    <g font-size="13">
+      <g transform="translate(0,40)">
+        <text x="0" y="0">Betterment Digital [S07]</text>
+        <text x="430" y="0" text-anchor="middle" fill="#475569">$10</text>
+        <text x="640" y="0" text-anchor="middle" fill="#475569">연 0.25%</text>
+        <text x="850" y="0" text-anchor="middle" fill="#475569">Premium 0.65%</text>
+        <text x="1080" y="0" text-anchor="middle" fill="#cbd5e1">●</text>
+        <line x1="0" y1="14" x2="1200" y2="14" stroke="#f1f5f9"/>
+      </g>
+      <g transform="translate(0,72)">
+        <text x="0" y="0">Wealthfront [S08]</text>
+        <text x="430" y="0" text-anchor="middle" fill="#475569">$500</text>
+        <text x="640" y="0" text-anchor="middle" fill="#475569">연 0.25%</text>
+        <text x="850" y="0" text-anchor="middle" fill="#475569">단일 티어</text>
+        <text x="1080" y="0" text-anchor="middle" fill="#cbd5e1">●</text>
+        <line x1="0" y1="14" x2="1200" y2="14" stroke="#f1f5f9"/>
+      </g>
+      <g transform="translate(0,104)">
+        <text x="0" y="0">Vanguard Digital Advisor [S12]</text>
+        <text x="430" y="0" text-anchor="middle" fill="#475569">$100</text>
+        <text x="640" y="0" text-anchor="middle" fill="#475569">연 ~0.15%</text>
+        <text x="850" y="0" text-anchor="middle" fill="#475569">단일 티어</text>
+        <text x="1080" y="0" text-anchor="middle" fill="#cbd5e1">●</text>
+        <line x1="0" y1="14" x2="1200" y2="14" stroke="#f1f5f9"/>
+      </g>
+      <g transform="translate(0,136)">
+        <text x="0" y="0">Fidelity Go [S12]</text>
+        <text x="430" y="0" text-anchor="middle" fill="#475569">$10</text>
+        <text x="640" y="0" text-anchor="middle" fill="#475569">$25k 미만 무료</text>
+        <text x="850" y="0" text-anchor="middle" fill="#475569">$25k+ 0.35%</text>
+        <text x="1080" y="0" text-anchor="middle" fill="#cbd5e1">●</text>
+        <line x1="0" y1="14" x2="1200" y2="14" stroke="#f1f5f9"/>
+      </g>
+      <g transform="translate(0,168)">
+        <text x="0" y="0">Nutmeg (UK, JPM) [S10]</text>
+        <text x="430" y="0" text-anchor="middle" fill="#475569">£500</text>
+        <text x="640" y="0" text-anchor="middle" fill="#475569">연 ~0.75%</text>
+        <text x="850" y="0" text-anchor="middle" fill="#475569">~1%+ 매니저</text>
+        <text x="1080" y="0" text-anchor="middle" fill="#cbd5e1">●</text>
+        <line x1="0" y1="14" x2="1200" y2="14" stroke="#f1f5f9"/>
+      </g>
+      <g transform="translate(0,200)">
+        <text x="0" y="0">핀트 (Korea) [S04]</text>
+        <text x="430" y="0" text-anchor="middle" fill="#475569">10만원</text>
+        <text x="640" y="0" text-anchor="middle" fill="#475569">연 0.5% + 성과</text>
+        <text x="850" y="0" text-anchor="middle" fill="#475569">단일 티어</text>
+        <text x="1080" y="0" text-anchor="middle" fill="#cbd5e1">●</text>
+        <line x1="0" y1="14" x2="1200" y2="14" stroke="#f1f5f9"/>
+      </g>
+      <g transform="translate(0,232)">
+        <text x="0" y="0">Empower (Personal Capital) [S09]</text>
+        <text x="430" y="0" text-anchor="middle" fill="#475569">무료 도구</text>
+        <text x="640" y="0" text-anchor="middle" fill="#475569">기본 무료 (MC)</text>
+        <text x="850" y="0" text-anchor="middle" fill="#475569">$100k+ 0.49~0.89%</text>
+        <text x="1080" y="0" text-anchor="middle" fill="#0f172a" font-weight="600">은퇴 한정 ◐</text>
+        <line x1="0" y1="14" x2="1200" y2="14" stroke="#f1f5f9"/>
+      </g>
+      <g transform="translate(0,264)">
+        <text x="0" y="0">Bloomberg PORT (전문가)</text>
+        <text x="430" y="0" text-anchor="middle" fill="#475569">전문가 단말</text>
+        <text x="640" y="0" text-anchor="middle" fill="#475569">단말 ~$24k/yr</text>
+        <text x="850" y="0" text-anchor="middle" fill="#475569">기관 라이선스</text>
+        <text x="1080" y="0" text-anchor="middle" fill="#0f172a" font-weight="600">다축 ✓</text>
+        <line x1="0" y1="14" x2="1200" y2="14" stroke="#f1f5f9"/>
+      </g>
+    </g>
+
+    <!-- Highlighted RiskScope -->
+    <g transform="translate(0,304)">
+      <rect x="-12" y="-22" width="1224" height="46" fill="#0f172a"/>
+      <text x="0" y="6" font-weight="700" fill="#ffffff" font-size="13">RiskScope (제안) — 국내 리테일 + B2B</text>
+      <text x="430" y="6" text-anchor="middle" font-weight="700" fill="#ffffff" font-size="13">제한 없음</text>
+      <text x="640" y="6" text-anchor="middle" font-weight="700" fill="#ffffff" font-size="13">기본 무료</text>
+      <text x="850" y="6" text-anchor="middle" font-weight="700" fill="#ffffff" font-size="13">월 ₩4,900~9,900 가설</text>
+      <text x="1080" y="6" text-anchor="middle" font-weight="700" fill="#ffffff" font-size="13">시나리오·XAI ✓</text>
+    </g>
+
+    <line x1="0" y1="346" x2="1200" y2="346" stroke="#0f172a" stroke-width="1"/>
+
+    <!-- Notes section -->
+    <g transform="translate(0,400)">
+      <text x="0" y="0" font-size="11" font-weight="700" fill="#94a3b8" letter-spacing="2">핵심 포지셔닝</text>
+      <line x1="0" y1="14" x2="120" y2="14" stroke="#cbd5e1"/>
+
+      <g font-size="12" fill="#475569">
+        <text x="0" y="44">— 무료 기본 + 월정액 구독: Betterment·Wealthfront 0.25% 자산수수료 대비 소액 투자자 부담 ↓</text>
+        <text x="0" y="68">— 시나리오·XAI를 무료 핵심 가치로 제공 (현행 시장은 미제공 또는 전문가 단말 한정)</text>
+        <text x="0" y="92">— B2B 채널: 판매사용 "불완전판매 사전방지 API 라이선스" — 5년 누적 6조 [D05] 제재 이력</text>
+        <text x="0" y="116">— 가격은 모두 가설이며 통합본선 단계에서 잠재 고객 인터뷰로 검증</text>
+      </g>
+    </g>
+  </g>
+</svg>

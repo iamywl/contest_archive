@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 880" font-family="-apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+  <rect width="1400" height="880" fill="#ffffff"/>
+
+  <!-- Header -->
+  <text x="80" y="76" font-size="28" font-weight="700" fill="#0f172a">경쟁 서비스 비교</text>
+  <text x="80" y="106" font-size="14" fill="#64748b">12개 서비스 × 5축 차별점 — 본 제안의 위치는 "국내 리테일 직접 채널"의 빈 셀</text>
+  <line x1="80" y1="130" x2="1320" y2="130" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Table -->
+  <g transform="translate(80,170)">
+    <!-- Header row -->
+    <g font-size="11" font-weight="700" fill="#0f172a" text-anchor="middle">
+      <line x1="0" y1="0" x2="1240" y2="0" stroke="#0f172a" stroke-width="1.5"/>
+      <text x="220" y="24" text-anchor="start" fill="#94a3b8" letter-spacing="1.5">SERVICE</text>
+      <text x="540" y="24">개인화 추천</text>
+      <text x="710" y="24">시나리오</text>
+      <text x="880" y="24">원화 실질 수익률</text>
+      <text x="1050" y="24">XAI</text>
+      <text x="1190" y="24">사전방지</text>
+      <line x1="0" y1="36" x2="1240" y2="36" stroke="#e2e8f0"/>
+    </g>
+
+    <g font-size="12" fill="#0f172a">
+      <!-- Group label: 국내 리테일 -->
+      <text x="0" y="62" font-size="10" font-weight="700" fill="#94a3b8" letter-spacing="2">국내 리테일</text>
+
+      <g transform="translate(0,76)">
+        <rect x="0" y="0" width="1240" height="34" fill="#ffffff"/>
+        <text x="0" y="22">토스증권 [S01]</text>
+        <text x="540" y="22" text-anchor="middle" fill="#475569">종목 큐레이션</text>
+        <text x="710" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <text x="880" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <text x="1050" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <text x="1190" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <line x1="0" y1="34" x2="1240" y2="34" stroke="#f1f5f9"/>
+      </g>
+      <g transform="translate(0,110)">
+        <text x="0" y="22">카카오뱅크 [S02]</text>
+        <text x="540" y="22" text-anchor="middle" fill="#475569">상품 라인업</text>
+        <text x="710" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <text x="880" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <text x="1050" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <text x="1190" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <line x1="0" y1="34" x2="1240" y2="34" stroke="#f1f5f9"/>
+      </g>
+      <g transform="translate(0,144)">
+        <text x="0" y="22">미래에셋 M-STOCK [S05]</text>
+        <text x="540" y="22" text-anchor="middle" fill="#475569">종목 · NLP</text>
+        <text x="710" y="22" text-anchor="middle" fill="#475569">부분 알림</text>
+        <text x="880" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <text x="1050" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <text x="1190" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <line x1="0" y1="34" x2="1240" y2="34" stroke="#f1f5f9"/>
+      </g>
+      <g transform="translate(0,178)">
+        <text x="0" y="22">KB STOCK GPT [S06]</text>
+        <text x="540" y="22" text-anchor="middle" fill="#475569">생성형 Q&amp;A</text>
+        <text x="710" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <text x="880" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <text x="1050" y="22" text-anchor="middle" fill="#475569">단문</text>
+        <text x="1190" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <line x1="0" y1="34" x2="1240" y2="34" stroke="#f1f5f9"/>
+      </g>
+      <g transform="translate(0,212)">
+        <text x="0" y="22">핀트 [S04] (RA 일임)</text>
+        <text x="540" y="22" text-anchor="middle" fill="#475569">일임 운용</text>
+        <text x="710" y="22" text-anchor="middle" fill="#94a3b8">비공개</text>
+        <text x="880" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <text x="1050" y="22" text-anchor="middle" fill="#94a3b8">비공개</text>
+        <text x="1190" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <line x1="0" y1="34" x2="1240" y2="34" stroke="#f1f5f9"/>
+      </g>
+
+      <!-- Group label: 해외 리테일 RA -->
+      <text x="0" y="270" font-size="10" font-weight="700" fill="#94a3b8" letter-spacing="2">해외 리테일 RA</text>
+      <g transform="translate(0,284)">
+        <text x="0" y="22">Betterment [S07]</text>
+        <text x="540" y="22" text-anchor="middle" fill="#475569">자동 리밸런싱</text>
+        <text x="710" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <text x="880" y="22" text-anchor="middle" fill="#94a3b8">N/A</text>
+        <text x="1050" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <text x="1190" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <line x1="0" y1="34" x2="1240" y2="34" stroke="#f1f5f9"/>
+      </g>
+      <g transform="translate(0,318)">
+        <text x="0" y="22">Wealthfront [S08]</text>
+        <text x="540" y="22" text-anchor="middle" fill="#475569">자동 리밸런싱</text>
+        <text x="710" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <text x="880" y="22" text-anchor="middle" fill="#94a3b8">N/A</text>
+        <text x="1050" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <text x="1190" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <line x1="0" y1="34" x2="1240" y2="34" stroke="#f1f5f9"/>
+      </g>
+      <g transform="translate(0,352)">
+        <text x="0" y="22">Empower (Personal Capital) [S09]</text>
+        <text x="540" y="22" text-anchor="middle" fill="#475569">은퇴 플래닝</text>
+        <text x="710" y="22" text-anchor="middle" fill="#475569">은퇴 한정 MC</text>
+        <text x="880" y="22" text-anchor="middle" fill="#94a3b8">N/A</text>
+        <text x="1050" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <text x="1190" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <line x1="0" y1="34" x2="1240" y2="34" stroke="#f1f5f9"/>
+      </g>
+
+      <!-- Group label: 자문가/전문가 -->
+      <text x="0" y="410" font-size="10" font-weight="700" fill="#94a3b8" letter-spacing="2">해외 자문가 · 전문가 (B2B)</text>
+      <g transform="translate(0,424)">
+        <text x="0" y="22">Riskalyze / Nitrogen</text>
+        <text x="540" y="22" text-anchor="middle" fill="#475569">위험성향 매칭</text>
+        <text x="710" y="22" text-anchor="middle" fill="#475569">단일 –down</text>
+        <text x="880" y="22" text-anchor="middle" fill="#94a3b8">N/A</text>
+        <text x="1050" y="22" text-anchor="middle" fill="#475569">단문</text>
+        <text x="1190" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <line x1="0" y1="34" x2="1240" y2="34" stroke="#f1f5f9"/>
+      </g>
+      <g transform="translate(0,458)">
+        <text x="0" y="22">Morningstar Portfolio X-Ray</text>
+        <text x="540" y="22" text-anchor="middle" fill="#475569">보유 분석</text>
+        <text x="710" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <text x="880" y="22" text-anchor="middle" fill="#94a3b8">N/A</text>
+        <text x="1050" y="22" text-anchor="middle" fill="#0f172a" font-weight="600">factor ✓</text>
+        <text x="1190" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <line x1="0" y1="34" x2="1240" y2="34" stroke="#f1f5f9"/>
+      </g>
+      <g transform="translate(0,492)">
+        <text x="0" y="22">BlackRock Aladdin Wealth</text>
+        <text x="540" y="22" text-anchor="middle" fill="#475569">다요인 추천</text>
+        <text x="710" y="22" text-anchor="middle" fill="#0f172a" font-weight="600">다축 ✓</text>
+        <text x="880" y="22" text-anchor="middle" fill="#475569">부분</text>
+        <text x="1050" y="22" text-anchor="middle" fill="#0f172a" font-weight="600">factor ✓</text>
+        <text x="1190" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <line x1="0" y1="34" x2="1240" y2="34" stroke="#f1f5f9"/>
+      </g>
+      <g transform="translate(0,526)">
+        <text x="0" y="22">Bloomberg PORT ($24k+/yr)</text>
+        <text x="540" y="22" text-anchor="middle" fill="#475569">전문가</text>
+        <text x="710" y="22" text-anchor="middle" fill="#0f172a" font-weight="600">다축 ✓</text>
+        <text x="880" y="22" text-anchor="middle" fill="#475569">부분</text>
+        <text x="1050" y="22" text-anchor="middle" fill="#0f172a" font-weight="600">factor ✓</text>
+        <text x="1190" y="22" text-anchor="middle" fill="#cbd5e1">●</text>
+        <line x1="0" y1="34" x2="1240" y2="34" stroke="#f1f5f9"/>
+      </g>
+
+      <!-- Highlighted: RiskScope -->
+      <g transform="translate(0,580)">
+        <rect x="-12" y="-2" width="1264" height="44" fill="#0f172a"/>
+        <text x="0" y="26" font-weight="700" fill="#ffffff">RiskScope (제안) — 국내 리테일 직접 채널</text>
+        <text x="540" y="26" text-anchor="middle" font-weight="700" fill="#ffffff">6차원 ✓</text>
+        <text x="710" y="26" text-anchor="middle" font-weight="700" fill="#ffffff">6 시나리오 ✓</text>
+        <text x="880" y="26" text-anchor="middle" font-weight="700" fill="#ffffff">명목/실질 ✓</text>
+        <text x="1050" y="26" text-anchor="middle" font-weight="700" fill="#ffffff">이중 레이어 ✓</text>
+        <text x="1190" y="26" text-anchor="middle" font-weight="700" fill="#ffffff">3단계 ✓</text>
+      </g>
+
+      <line x1="0" y1="630" x2="1240" y2="630" stroke="#0f172a" stroke-width="1.5"/>
+    </g>
+  </g>
+
+  <!-- Legend / Notes -->
+  <g transform="translate(80,830)" font-size="11" fill="#64748b">
+    <text x="0" y="0">● 미지원   ·   부분/단문 = 제한적 지원   ·   factor ✓ / 다축 ✓ = 본격 지원   ·   N/A = 한국 사용자에게 제공 안 됨</text>
+    <text x="0" y="20" font-size="10" fill="#94a3b8">자문가용·전문가 단말은 한국 리테일 직접 접근이 사실상 차단됨 (라이선스·언어·계약·가격)</text>
+  </g>
+</svg>

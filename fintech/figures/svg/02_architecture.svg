@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 920" font-family="-apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+  <rect width="1400" height="920" fill="#ffffff"/>
+
+  <!-- Header -->
+  <text x="80" y="76" font-size="28" font-weight="700" fill="#0f172a">RiskScope 시스템 아키텍처</text>
+  <text x="80" y="106" font-size="14" fill="#64748b">사용자 → 코어 → 데이터 → 감사 4계층 · 모든 코어 엔진은 학술 정전 위에 구축</text>
+  <line x1="80" y1="130" x2="1320" y2="130" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Layer 1 — User -->
+  <g transform="translate(80,170)">
+    <text x="0" y="0" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="2">LAYER 01 · USER</text>
+    <text x="0" y="22" font-size="18" font-weight="700" fill="#0f172a">사용자 단</text>
+
+    <g transform="translate(0,40)" font-family="-apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+      <rect x="0" y="0" width="240" height="120" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+      <text x="20" y="32" font-size="14" font-weight="700" fill="#0f172a">프로필 입력</text>
+      <line x1="20" y1="44" x2="80" y2="44" stroke="#cbd5e1"/>
+      <text x="20" y="68" font-size="11" fill="#475569">설문 6차원</text>
+      <text x="20" y="86" font-size="11" fill="#475569">연령·소득·자산·목표</text>
+      <text x="20" y="104" font-size="11" fill="#475569">리스크·환선호</text>
+
+      <rect x="260" y="0" width="240" height="120" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+      <text x="280" y="32" font-size="14" font-weight="700" fill="#0f172a">추천 리스트</text>
+      <line x1="280" y1="44" x2="340" y2="44" stroke="#cbd5e1"/>
+      <text x="280" y="68" font-size="11" fill="#475569">6차원 가중치 공개</text>
+      <text x="280" y="86" font-size="11" fill="#475569">경고 심각도 분류</text>
+      <text x="280" y="104" font-size="11" fill="#475569">투명한 점수 분해</text>
+
+      <rect x="520" y="0" width="240" height="120" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+      <text x="540" y="32" font-size="14" font-weight="700" fill="#0f172a">시나리오 대시보드</text>
+      <line x1="540" y1="44" x2="600" y2="44" stroke="#cbd5e1"/>
+      <text x="540" y="68" font-size="11" fill="#475569">상품특화 리스크 카드</text>
+      <text x="540" y="86" font-size="11" fill="#475569">XAI 워터폴</text>
+      <text x="540" y="104" font-size="11" fill="#475569">시나리오 매트릭스</text>
+
+      <rect x="780" y="0" width="240" height="120" rx="8" fill="#ffffff" stroke="#0f172a" stroke-width="1.5"/>
+      <text x="800" y="32" font-size="14" font-weight="700" fill="#0f172a">가입 인지체크</text>
+      <line x1="800" y1="44" x2="860" y2="44" stroke="#cbd5e1"/>
+      <text x="800" y="68" font-size="11" fill="#475569">3단계 체크박스</text>
+      <text x="800" y="86" font-size="11" fill="#475569">전망이론 [P15]</text>
+      <text x="800" y="104" font-size="11" fill="#475569">Misselling [P18]</text>
+
+      <rect x="1040" y="0" width="200" height="120" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+      <text x="1060" y="32" font-size="14" font-weight="700" fill="#0f172a">자연어 질의</text>
+      <line x1="1060" y1="44" x2="1120" y2="44" stroke="#cbd5e1"/>
+      <text x="1060" y="68" font-size="11" fill="#475569">규칙 기반 NLP 파서</text>
+      <text x="1060" y="86" font-size="11" fill="#475569">LLM 환각 회피</text>
+      <text x="1060" y="104" font-size="11" fill="#475569">즉시 시뮬레이션</text>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <line x1="80" y1="370" x2="1320" y2="370" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Layer 2 — Core -->
+  <g transform="translate(80,400)">
+    <text x="0" y="0" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="2">LAYER 02 · CORE</text>
+    <text x="0" y="22" font-size="18" font-weight="700" fill="#0f172a">추천·시뮬 코어 — 학술 정전 위에 구축</text>
+
+    <g transform="translate(0,40)">
+      <rect x="0" y="0" width="240" height="130" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="20" y="32" font-size="14" font-weight="700" fill="#0f172a">적합성 점수 엔진</text>
+      <line x1="20" y1="44" x2="80" y2="44" stroke="#cbd5e1"/>
+      <text x="20" y="68" font-size="11" fill="#475569">6차원 투명 가중합</text>
+      <text x="20" y="100" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="1">FOUNDATION</text>
+      <text x="20" y="118" font-size="11" fill="#334155">Markowitz [P08] · Merton [P14]</text>
+
+      <rect x="260" y="0" width="240" height="130" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="280" y="32" font-size="14" font-weight="700" fill="#0f172a">몬테카를로 엔진</text>
+      <line x1="280" y1="44" x2="340" y2="44" stroke="#cbd5e1"/>
+      <text x="280" y="68" font-size="11" fill="#475569">5,000 paths · 6 시나리오</text>
+      <text x="280" y="100" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="1">FOUNDATION</text>
+      <text x="280" y="118" font-size="11" fill="#334155">BS [P10] · MC [P09] · Cholesky [P11]</text>
+
+      <rect x="520" y="0" width="240" height="130" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="540" y="32" font-size="14" font-weight="700" fill="#0f172a">XAI 요인 분해</text>
+      <line x1="540" y1="44" x2="600" y2="44" stroke="#cbd5e1"/>
+      <text x="540" y="68" font-size="11" fill="#475569">P5 손실 워터폴 (OAT)</text>
+      <text x="540" y="100" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="1">FOUNDATION</text>
+      <text x="540" y="118" font-size="11" fill="#334155">Lundberg–Lee [P17] · CFA [P05]</text>
+
+      <rect x="780" y="0" width="240" height="130" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="800" y="32" font-size="14" font-weight="700" fill="#0f172a">총비용 엔진</text>
+      <line x1="800" y1="44" x2="860" y2="44" stroke="#cbd5e1"/>
+      <text x="800" y="68" font-size="11" fill="#475569">TER + FX + 수수료 + 세금</text>
+      <text x="800" y="100" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="1">EVIDENCE</text>
+      <text x="800" y="118" font-size="11" fill="#334155">Bergstresser [P19] · Schwab [R06]</text>
+
+      <rect x="1040" y="0" width="200" height="130" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="1060" y="32" font-size="14" font-weight="700" fill="#0f172a">실질수익 변환</text>
+      <line x1="1060" y1="44" x2="1120" y2="44" stroke="#cbd5e1"/>
+      <text x="1060" y="68" font-size="11" fill="#475569">인플레이션 ÷ T</text>
+      <text x="1060" y="100" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="1">CONTEXT</text>
+      <text x="1060" y="118" font-size="11" fill="#334155">금융이해력 56.6점 [D01]</text>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <line x1="80" y1="610" x2="1320" y2="610" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Layer 3 — Data -->
+  <g transform="translate(80,640)">
+    <text x="0" y="0" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="2">LAYER 03 · DATA</text>
+    <text x="0" y="22" font-size="18" font-weight="700" fill="#0f172a">데이터 계층</text>
+
+    <g transform="translate(0,40)">
+      <rect x="0" y="0" width="400" height="60" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+      <text x="20" y="26" font-size="13" font-weight="700" fill="#0f172a">상품 카탈로그 10개 + 상품특화 리스크 33개</text>
+      <text x="20" y="46" font-size="11" fill="#64748b">SPY · QQQ · KODEX · ELS · TDF · 채권 · 예금 · ISA · 차이나 EV · ACWI</text>
+
+      <rect x="420" y="0" width="400" height="60" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-dasharray="4 3"/>
+      <text x="440" y="26" font-size="13" font-weight="700" fill="#0f172a">FRED / BOK ECOS / KRX 파이프라인</text>
+      <text x="440" y="46" font-size="11" fill="#64748b">현재 스텁 · S8 실연동 예정</text>
+
+      <rect x="840" y="0" width="400" height="60" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-dasharray="4 3"/>
+      <text x="860" y="26" font-size="13" font-weight="700" fill="#0f172a">마이데이터 2.0 [R02]</text>
+      <text x="860" y="46" font-size="11" fill="#64748b">현재 모의 5계좌 · S8 실연동 예정</text>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <line x1="80" y1="780" x2="1320" y2="780" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Layer 4 — Audit -->
+  <g transform="translate(80,810)">
+    <text x="0" y="0" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="2">LAYER 04 · AUDIT</text>
+    <text x="0" y="22" font-size="18" font-weight="700" fill="#0f172a">감사·규제 계층</text>
+
+    <g transform="translate(0,40)">
+      <rect x="0" y="0" width="400" height="50" rx="8" fill="#ffffff" stroke="#0f172a" stroke-width="1.5"/>
+      <text x="20" y="22" font-size="13" font-weight="700" fill="#0f172a">감사 로그</text>
+      <text x="20" y="40" font-size="11" fill="#64748b">디듀프 + 500 cap · 금소법 [R01] 사전 증빙</text>
+
+      <rect x="420" y="0" width="400" height="50" rx="8" fill="#ffffff" stroke="#0f172a" stroke-width="1.5"/>
+      <text x="440" y="22" font-size="13" font-weight="700" fill="#0f172a">Admin XAI 내부 뷰</text>
+      <text x="440" y="40" font-size="11" fill="#64748b">CFA 이해관계자별 분리 [P05] · 모델 메타데이터 공개</text>
+
+      <rect x="840" y="0" width="400" height="50" rx="8" fill="#ffffff" stroke="#0f172a" stroke-width="1.5"/>
+      <text x="860" y="22" font-size="13" font-weight="700" fill="#0f172a">모델 메타데이터</text>
+      <text x="860" y="40" font-size="11" fill="#64748b">SEC Reg BI [R06] AI-washing 대응 · 시드·상관 공개</text>
+    </g>
+  </g>
+</svg>

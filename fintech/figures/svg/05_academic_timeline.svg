@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" font-family="-apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+  <rect width="1400" height="800" fill="#ffffff"/>
+
+  <!-- Header -->
+  <text x="80" y="76" font-size="28" font-weight="700" fill="#0f172a">학술 정전 11편 — 1952~2019</text>
+  <text x="80" y="106" font-size="14" fill="#64748b">RiskScope가 채택한 핵심 문헌의 시간축 · 노벨경제학상 3회 + NeurIPS best paper 포함</text>
+  <line x1="80" y1="130" x2="1320" y2="130" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Timeline axis -->
+  <g transform="translate(80,540)">
+    <line x1="0" y1="0" x2="1240" y2="0" stroke="#0f172a" stroke-width="1.5"/>
+
+    <!-- Decade ticks -->
+    <g font-size="11" font-weight="500" fill="#94a3b8">
+      <g transform="translate(0,0)">
+        <line x1="0" y1="0" x2="0" y2="6" stroke="#0f172a"/>
+        <text x="0" y="24" text-anchor="middle">1950</text>
+      </g>
+      <g transform="translate(186,0)">
+        <line x1="0" y1="0" x2="0" y2="6" stroke="#0f172a"/>
+        <text x="0" y="24" text-anchor="middle">1960</text>
+      </g>
+      <g transform="translate(372,0)">
+        <line x1="0" y1="0" x2="0" y2="6" stroke="#0f172a"/>
+        <text x="0" y="24" text-anchor="middle">1970</text>
+      </g>
+      <g transform="translate(558,0)">
+        <line x1="0" y1="0" x2="0" y2="6" stroke="#0f172a"/>
+        <text x="0" y="24" text-anchor="middle">1980</text>
+      </g>
+      <g transform="translate(744,0)">
+        <line x1="0" y1="0" x2="0" y2="6" stroke="#0f172a"/>
+        <text x="0" y="24" text-anchor="middle">1990</text>
+      </g>
+      <g transform="translate(930,0)">
+        <line x1="0" y1="0" x2="0" y2="6" stroke="#0f172a"/>
+        <text x="0" y="24" text-anchor="middle">2000</text>
+      </g>
+      <g transform="translate(1116,0)">
+        <line x1="0" y1="0" x2="0" y2="6" stroke="#0f172a"/>
+        <text x="0" y="24" text-anchor="middle">2010</text>
+      </g>
+      <g transform="translate(1240,0)">
+        <line x1="0" y1="0" x2="0" y2="6" stroke="#0f172a"/>
+        <text x="0" y="24" text-anchor="middle">2020</text>
+      </g>
+    </g>
+
+    <!-- Event markers — minimal, no varied colors -->
+    <!-- Markowitz 1952, lift -240, 노벨 -->
+    <g transform="translate(36,0)">
+      <line x1="0" y1="0" x2="0" y2="-220" stroke="#0f172a" stroke-width="1"/>
+      <circle cx="0" cy="0" r="5" fill="#0f172a"/>
+      <g transform="translate(-90,-280)">
+        <text x="0" y="14" font-size="11" font-weight="700" fill="#0f172a">Markowitz</text>
+        <text x="0" y="30" font-size="11" fill="#475569">1952 · MPT</text>
+        <text x="0" y="46" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="1.5">[P08] · 노벨</text>
+      </g>
+    </g>
+
+    <!-- Merton 1969, lift -130 -->
+    <g transform="translate(354,0)">
+      <line x1="0" y1="0" x2="0" y2="-110" stroke="#475569" stroke-width="1"/>
+      <circle cx="0" cy="0" r="5" fill="#0f172a"/>
+      <g transform="translate(-50,-170)">
+        <text x="0" y="14" font-size="11" font-weight="700" fill="#0f172a">Merton</text>
+        <text x="0" y="30" font-size="11" fill="#475569">1969 · 생애주기</text>
+        <text x="0" y="46" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="1.5">[P14]</text>
+      </g>
+    </g>
+
+    <!-- Black-Scholes 1973, lift -340 -->
+    <g transform="translate(428,0)">
+      <line x1="0" y1="0" x2="0" y2="-320" stroke="#0f172a" stroke-width="1"/>
+      <circle cx="0" cy="0" r="5" fill="#0f172a"/>
+      <g transform="translate(-60,-380)">
+        <text x="0" y="14" font-size="11" font-weight="700" fill="#0f172a">Black–Scholes</text>
+        <text x="0" y="30" font-size="11" fill="#475569">1973 · GBM</text>
+        <text x="0" y="46" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="1.5">[P10] · 노벨</text>
+      </g>
+    </g>
+
+    <!-- Boyle 1977, lift -50 -->
+    <g transform="translate(502,0)">
+      <line x1="0" y1="0" x2="0" y2="-30" stroke="#475569" stroke-width="1"/>
+      <circle cx="0" cy="0" r="5" fill="#0f172a"/>
+      <g transform="translate(-40,-90)">
+        <text x="0" y="14" font-size="11" font-weight="700" fill="#0f172a">Boyle</text>
+        <text x="0" y="30" font-size="11" fill="#475569">1977 · 금융 MC</text>
+        <text x="0" y="46" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="1.5">[P09]</text>
+      </g>
+    </g>
+
+    <!-- Kahneman-Tversky 1979, lift -240 -->
+    <g transform="translate(540,0)">
+      <line x1="0" y1="0" x2="0" y2="-220" stroke="#0f172a" stroke-width="1"/>
+      <circle cx="0" cy="0" r="5" fill="#0f172a"/>
+      <g transform="translate(40,-280)">
+        <text x="0" y="14" font-size="11" font-weight="700" fill="#0f172a">Kahneman–Tversky</text>
+        <text x="0" y="30" font-size="11" fill="#475569">1979 · 전망이론</text>
+        <text x="0" y="46" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="1.5">[P15] · 노벨</text>
+      </g>
+    </g>
+
+    <!-- Artzner 1999, lift -130 -->
+    <g transform="translate(908,0)">
+      <line x1="0" y1="0" x2="0" y2="-110" stroke="#475569" stroke-width="1"/>
+      <circle cx="0" cy="0" r="5" fill="#0f172a"/>
+      <g transform="translate(-50,-170)">
+        <text x="0" y="14" font-size="11" font-weight="700" fill="#0f172a">Artzner</text>
+        <text x="0" y="30" font-size="11" fill="#475569">1999 · Coherent</text>
+        <text x="0" y="46" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="1.5">[P13]</text>
+      </g>
+    </g>
+
+    <!-- Glasserman 2003, lift -50 -->
+    <g transform="translate(986,0)">
+      <line x1="0" y1="0" x2="0" y2="-30" stroke="#475569" stroke-width="1"/>
+      <circle cx="0" cy="0" r="5" fill="#0f172a"/>
+      <g transform="translate(-50,-90)">
+        <text x="0" y="14" font-size="11" font-weight="700" fill="#0f172a">Glasserman</text>
+        <text x="0" y="30" font-size="11" fill="#475569">2003 · Cholesky</text>
+        <text x="0" y="46" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="1.5">[P11]</text>
+      </g>
+    </g>
+
+    <!-- Jorion 2006, lift -220 -->
+    <g transform="translate(1042,0)">
+      <line x1="0" y1="0" x2="0" y2="-200" stroke="#475569" stroke-width="1"/>
+      <circle cx="0" cy="0" r="5" fill="#0f172a"/>
+      <g transform="translate(-40,-260)">
+        <text x="0" y="14" font-size="11" font-weight="700" fill="#0f172a">Jorion</text>
+        <text x="0" y="30" font-size="11" fill="#475569">2006 · VaR</text>
+        <text x="0" y="46" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="1.5">[P12]</text>
+      </g>
+    </g>
+
+    <!-- Inderst-Ottaviani 2009, lift -340 -->
+    <g transform="translate(1098,0)">
+      <line x1="0" y1="0" x2="0" y2="-320" stroke="#0f172a" stroke-width="1"/>
+      <circle cx="0" cy="0" r="5" fill="#0f172a"/>
+      <g transform="translate(-70,-380)">
+        <text x="0" y="14" font-size="11" font-weight="700" fill="#0f172a">Inderst–Ottaviani</text>
+        <text x="0" y="30" font-size="11" fill="#475569">2009 · Misselling</text>
+        <text x="0" y="46" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="1.5">[P18] / Cost [P19]</text>
+      </g>
+    </g>
+
+    <!-- Lundberg-Lee 2017, lift -130 -->
+    <g transform="translate(1186,0)">
+      <line x1="0" y1="0" x2="0" y2="-110" stroke="#0f172a" stroke-width="1"/>
+      <circle cx="0" cy="0" r="5" fill="#0f172a"/>
+      <g transform="translate(-50,-170)">
+        <text x="0" y="14" font-size="11" font-weight="700" fill="#0f172a">Lundberg–Lee</text>
+        <text x="0" y="30" font-size="11" fill="#475569">2017 · SHAP</text>
+        <text x="0" y="46" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="1.5">[P17] · NeurIPS best</text>
+      </g>
+    </g>
+
+    <!-- D'Acunto 2019, lift -50 -->
+    <g transform="translate(1198,0)">
+      <line x1="0" y1="0" x2="0" y2="-30" stroke="#475569" stroke-width="1"/>
+      <circle cx="0" cy="0" r="5" fill="#0f172a"/>
+      <g transform="translate(20,-90)">
+        <text x="0" y="14" font-size="11" font-weight="700" fill="#0f172a">D'Acunto</text>
+        <text x="0" y="30" font-size="11" fill="#475569">2019 · RA 실증</text>
+        <text x="0" y="46" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="1.5">[P16]</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <line x1="80" y1="740" x2="1320" y2="740" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="80" y="768" font-size="11" fill="#94a3b8">출처: research/papers/influential_methods.md (DOI 검증 완료, 2026-04-21)</text>
+  <text x="1320" y="768" font-size="11" fill="#94a3b8" text-anchor="end">11 papers · 67-year span · 단일 통합 시스템</text>
+</svg>

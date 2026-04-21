@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="-apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+  <rect width="1280" height="720" fill="#ffffff"/>
+
+  <!-- Header -->
+  <text x="80" y="76" font-size="28" font-weight="700" fill="#0f172a">한국 리테일 금융시장의 4중 시장실패</text>
+  <text x="80" y="106" font-size="14" fill="#64748b">반복되는 손실 사고는 동일한 구조적 결핍에서 파생된다 — 인과 중첩 구조</text>
+  <line x1="80" y1="130" x2="1200" y2="130" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Center: structural deficiency -->
+  <g transform="translate(640,400)">
+    <rect x="-220" y="-72" width="440" height="144" rx="10" fill="#0f172a"/>
+    <text x="0" y="-30" font-size="13" font-weight="500" fill="#94a3b8" text-anchor="middle" letter-spacing="2">CORE</text>
+    <text x="0" y="2" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">구조적 결핍</text>
+    <text x="0" y="32" font-size="13" fill="#cbd5e1" text-anchor="middle">분포 기반 사전 고지의 부재</text>
+    <text x="0" y="54" font-size="11" fill="#94a3b8" text-anchor="middle">설문 적합성·텍스트 경고만으로 충분치 않다</text>
+  </g>
+
+  <!-- 4 failure cards -->
+  <g font-family="-apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+
+    <!-- ① Misselling -->
+    <g transform="translate(120,200)">
+      <rect x="0" y="0" width="280" height="116" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+      <text x="20" y="34" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1.5">① 반복 불완전판매</text>
+      <text x="20" y="68" font-size="26" font-weight="700" fill="#0f172a">6.05조 원</text>
+      <text x="20" y="86" font-size="11" fill="#64748b">2019-2023 누적 · 피해자 3.3만 명</text>
+      <text x="20" y="104" font-size="10" fill="#94a3b8">DLF · 라임 · 옵티머스 · 홍콩 ELS · [D05]</text>
+    </g>
+
+    <!-- ② Concentration -->
+    <g transform="translate(880,200)">
+      <rect x="0" y="0" width="280" height="116" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+      <text x="20" y="34" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1.5">② 집중·군집 리스크</text>
+      <text x="20" y="68" font-size="26" font-weight="700" fill="#0f172a">리테일 64%</text>
+      <text x="20" y="86" font-size="11" fill="#64748b">국내 거래대금 비중 (미·일 ~30%)</text>
+      <text x="20" y="104" font-size="10" fill="#94a3b8">Mag7 31~40% · 삼성+SK 1/3 · [D08][D06][P07]</text>
+    </g>
+
+    <!-- ③ FX loss -->
+    <g transform="translate(120,484)">
+      <rect x="0" y="0" width="280" height="116" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+      <text x="20" y="34" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1.5">③ 환차손 (서학개미)</text>
+      <text x="20" y="68" font-size="26" font-weight="700" fill="#0f172a">~2,600억 달러</text>
+      <text x="20" y="86" font-size="11" fill="#64748b">2024 美 주식 보관/결제 (KSD)</text>
+      <text x="20" y="104" font-size="10" fill="#94a3b8">USD 자산 비헤지 매수 급증 · [D04]</text>
+    </g>
+
+    <!-- ④ Literacy -->
+    <g transform="translate(880,484)">
+      <rect x="0" y="0" width="280" height="116" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+      <text x="20" y="34" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1.5">④ 금융이해력 격차</text>
+      <text x="20" y="68" font-size="26" font-weight="700" fill="#0f172a">56.6점</text>
+      <text x="20" y="86" font-size="11" fill="#64748b">2024 BOK·FSS 조사 (2022 78.3점 ↓)</text>
+      <text x="20" y="104" font-size="10" fill="#94a3b8">인플레·환율 이해도 저조 · [D01]</text>
+    </g>
+  </g>
+
+  <!-- Connector lines (very subtle) -->
+  <g stroke="#cbd5e1" stroke-width="1" fill="none">
+    <path d="M 400 258 L 540 380" />
+    <path d="M 880 258 L 740 380" />
+    <path d="M 400 542 L 540 420" />
+    <path d="M 880 542 L 740 420" />
+  </g>
+
+  <!-- Footer -->
+  <line x1="80" y1="660" x2="1200" y2="660" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="80" y="688" font-size="11" fill="#94a3b8">주: ELS [R05] 4.6조는 [D05] 6.05조 안에 일부 포함될 수 있음 — 단순 합산 아닌 카테고리 분포</text>
+  <text x="80" y="704" font-size="11" fill="#94a3b8">출처: research/references.md · 본 도식은 본 팀 작성 · 인과 중첩 가설은 §1.2 참조</text>
+</svg>
