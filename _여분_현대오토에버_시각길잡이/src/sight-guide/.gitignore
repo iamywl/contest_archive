@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.streamlit/secrets.toml
+*.pt
+*.onnx
+yolov8n.pt
+samples/*.jpg
+samples/*.png
+!samples/.gitkeep
+!samples/README.md
