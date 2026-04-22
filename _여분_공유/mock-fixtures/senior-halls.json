@@ -1,0 +1,74 @@
+{
+  "_mock": true,
+  "_source": "보건복지부 경로당 현황 (스키마 재현)",
+  "_updated": "2026-04-22",
+  "totalCount": 6,
+  "items": [
+    {
+      "id": "SH-NH-001",
+      "name": "종로 평동경로당",
+      "address": "서울 종로구 평동 123",
+      "lat": 37.5712,
+      "lng": 126.9653,
+      "memberCount": 48,
+      "operatingStatus": "운영중",
+      "programs": ["건강체조", "점심식사"],
+      "accessible": true
+    },
+    {
+      "id": "SH-NH-002",
+      "name": "낙원경로당",
+      "address": "서울 종로구 낙원동 284",
+      "lat": 37.5745,
+      "lng": 126.987,
+      "memberCount": 62,
+      "operatingStatus": "운영중",
+      "programs": ["바둑", "점심식사", "노래교실"],
+      "accessible": false
+    },
+    {
+      "id": "SH-NH-003",
+      "name": "중구 무교동경로당",
+      "address": "서울 중구 무교로 5",
+      "lat": 37.569,
+      "lng": 126.9785,
+      "memberCount": 33,
+      "operatingStatus": "운영중",
+      "programs": ["점심식사"],
+      "accessible": true
+    },
+    {
+      "id": "SH-NH-004",
+      "name": "서대문 충정경로당",
+      "address": "서울 서대문구 충정로 60",
+      "lat": 37.5665,
+      "lng": 126.9632,
+      "memberCount": 41,
+      "operatingStatus": "휴관",
+      "programs": [],
+      "accessible": true
+    },
+    {
+      "id": "SH-NH-005",
+      "name": "마포 상암경로당",
+      "address": "서울 마포구 상암동 1580",
+      "lat": 37.5774,
+      "lng": 126.895,
+      "memberCount": 57,
+      "operatingStatus": "운영중",
+      "programs": ["건강체조", "바둑", "점심식사"],
+      "accessible": true
+    },
+    {
+      "id": "SH-NH-006",
+      "name": "성동 금호경로당",
+      "address": "서울 성동구 금호동 1가",
+      "lat": 37.5497,
+      "lng": 127.0179,
+      "memberCount": 39,
+      "operatingStatus": "운영중",
+      "programs": ["노래교실", "건강체조"],
+      "accessible": false
+    }
+  ]
+}

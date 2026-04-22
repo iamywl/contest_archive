@@ -1,0 +1,56 @@
+{
+  "_mock": true,
+  "_source": "한국환경공단 에어코리아 통합대기환경지수(CAI) (스키마 재현)",
+  "_updated": "2026-04-22T10:00:00+09:00",
+  "stationName": "종로구",
+  "lat": 37.5718,
+  "lng": 126.983,
+  "cai": {
+    "grade": 2,
+    "gradeLabel": "보통",
+    "value": 73
+  },
+  "pm10": {
+    "value": 52,
+    "grade": 2,
+    "unit": "㎍/㎥"
+  },
+  "pm25": {
+    "value": 23,
+    "grade": 2,
+    "unit": "㎍/㎥"
+  },
+  "o3": {
+    "value": 0.042,
+    "grade": 2,
+    "unit": "ppm"
+  },
+  "no2": {
+    "value": 0.031,
+    "grade": 2,
+    "unit": "ppm"
+  },
+  "co": {
+    "value": 0.5,
+    "grade": 1,
+    "unit": "ppm"
+  },
+  "so2": {
+    "value": 0.004,
+    "grade": 1,
+    "unit": "ppm"
+  },
+  "forecast": [
+    { "datetime": "2026-04-22T13:00:00+09:00", "cai": 78, "grade": 2 },
+    { "datetime": "2026-04-22T16:00:00+09:00", "cai": 85, "grade": 2 },
+    { "datetime": "2026-04-22T19:00:00+09:00", "cai": 65, "grade": 2 }
+  ],
+  "legend": {
+    "grades": [
+      { "grade": 1, "label": "좋음", "range": "0-50" },
+      { "grade": 2, "label": "보통", "range": "51-100" },
+      { "grade": 3, "label": "나쁨", "range": "101-250" },
+      { "grade": 4, "label": "매우나쁨", "range": "251+" }
+    ]
+  }
+}

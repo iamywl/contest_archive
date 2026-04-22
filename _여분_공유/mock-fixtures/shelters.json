@@ -1,0 +1,112 @@
+{
+  "_mock": true,
+  "_source": "행정안전부 국민재난안전포털 무더위쉼터/한파쉼터 (스키마 재현)",
+  "_updated": "2026-04-22",
+  "totalCount": 8,
+  "items": [
+    {
+      "id": "SH-11-001",
+      "name": "종로노인복지관",
+      "type": "무더위쉼터",
+      "address": "서울 종로구 삼봉로 43",
+      "lat": 37.5736,
+      "lng": 126.9797,
+      "capacity": 120,
+      "operatingHours": "09:00-18:00",
+      "aircon": true,
+      "accessible": true,
+      "phone": "02-720-1950"
+    },
+    {
+      "id": "SH-11-002",
+      "name": "을지로경로당",
+      "type": "무더위쉼터",
+      "address": "서울 중구 을지로 100",
+      "lat": 37.5663,
+      "lng": 126.9915,
+      "capacity": 40,
+      "operatingHours": "10:00-17:00",
+      "aircon": true,
+      "accessible": false,
+      "phone": "02-778-0000"
+    },
+    {
+      "id": "SH-11-003",
+      "name": "남대문시장 상인쉼터",
+      "type": "무더위쉼터",
+      "address": "서울 중구 남대문시장길 21",
+      "lat": 37.5598,
+      "lng": 126.9783,
+      "capacity": 25,
+      "operatingHours": "09:00-20:00",
+      "aircon": true,
+      "accessible": true,
+      "phone": null
+    },
+    {
+      "id": "SH-11-004",
+      "name": "서소문근린공원 정자",
+      "type": "무더위쉼터",
+      "address": "서울 중구 서소문로 11길",
+      "lat": 37.562,
+      "lng": 126.972,
+      "capacity": 15,
+      "operatingHours": "24시간",
+      "aircon": false,
+      "accessible": true,
+      "phone": null
+    },
+    {
+      "id": "SH-11-005",
+      "name": "강북구민회관",
+      "type": "한파쉼터",
+      "address": "서울 강북구 도봉로 89길 13",
+      "lat": 37.6396,
+      "lng": 127.0256,
+      "capacity": 200,
+      "operatingHours": "09:00-22:00",
+      "aircon": true,
+      "accessible": true,
+      "phone": "02-901-0000"
+    },
+    {
+      "id": "SH-11-006",
+      "name": "성북종합사회복지관",
+      "type": "한파쉼터",
+      "address": "서울 성북구 동소문로 20가길 23",
+      "lat": 37.5892,
+      "lng": 127.0067,
+      "capacity": 100,
+      "operatingHours": "09:00-21:00",
+      "aircon": true,
+      "accessible": true,
+      "phone": "02-920-0000"
+    },
+    {
+      "id": "SH-11-007",
+      "name": "마포구청 대합실",
+      "type": "무더위쉼터",
+      "address": "서울 마포구 월드컵로 212",
+      "lat": 37.5663,
+      "lng": 126.9017,
+      "capacity": 60,
+      "operatingHours": "09:00-18:00",
+      "aircon": true,
+      "accessible": true,
+      "phone": "02-3153-0000"
+    },
+    {
+      "id": "SH-11-008",
+      "name": "동대문구 노인복지관",
+      "type": "한파쉼터",
+      "address": "서울 동대문구 제기로 103길 12",
+      "lat": 37.5836,
+      "lng": 127.0357,
+      "capacity": 80,
+      "operatingHours": "09:00-18:00",
+      "aircon": true,
+      "accessible": true,
+      "phone": "02-960-0000"
+    }
+  ]
+}

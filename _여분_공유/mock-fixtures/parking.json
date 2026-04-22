@@ -1,0 +1,86 @@
+{
+  "_mock": true,
+  "_source": "행정안전부 공영주차장 실시간 잔여면수 (통합개방 스키마 재현)",
+  "_updated": "2026-04-22T10:30:00+09:00",
+  "totalCount": 6,
+  "items": [
+    {
+      "id": "PK-11-001",
+      "name": "광화문시민열린마당 공영주차장",
+      "address": "서울 종로구 세종대로 172",
+      "lat": 37.5758,
+      "lng": 126.9768,
+      "capacity": 180,
+      "occupied": 102,
+      "available": 78,
+      "feeKrwPer30Min": 1200,
+      "operatingHours": "24시간",
+      "accessible": true
+    },
+    {
+      "id": "PK-11-002",
+      "name": "시청앞 공영주차장",
+      "address": "서울 중구 태평로1가 34",
+      "lat": 37.5664,
+      "lng": 126.9779,
+      "capacity": 250,
+      "occupied": 233,
+      "available": 17,
+      "feeKrwPer30Min": 1500,
+      "operatingHours": "06:00-24:00",
+      "accessible": true
+    },
+    {
+      "id": "PK-11-003",
+      "name": "동대문 공영주차장",
+      "address": "서울 중구 장충단로 275",
+      "lat": 37.5714,
+      "lng": 127.0099,
+      "capacity": 120,
+      "occupied": 45,
+      "available": 75,
+      "feeKrwPer30Min": 900,
+      "operatingHours": "24시간",
+      "accessible": true
+    },
+    {
+      "id": "PK-11-004",
+      "name": "서소문 공영주차장",
+      "address": "서울 중구 서소문로 58",
+      "lat": 37.5627,
+      "lng": 126.9705,
+      "capacity": 90,
+      "occupied": 90,
+      "available": 0,
+      "feeKrwPer30Min": 1200,
+      "operatingHours": "24시간",
+      "accessible": false
+    },
+    {
+      "id": "PK-11-005",
+      "name": "용산 공영주차장",
+      "address": "서울 용산구 한강대로 73길 17",
+      "lat": 37.5385,
+      "lng": 126.9665,
+      "capacity": 140,
+      "occupied": 62,
+      "available": 78,
+      "feeKrwPer30Min": 800,
+      "operatingHours": "05:00-24:00",
+      "accessible": true
+    },
+    {
+      "id": "PK-11-006",
+      "name": "마포구청 공영주차장",
+      "address": "서울 마포구 월드컵로 212",
+      "lat": 37.5667,
+      "lng": 126.9016,
+      "capacity": 70,
+      "occupied": 24,
+      "available": 46,
+      "feeKrwPer30Min": 0,
+      "operatingHours": "평일 09-18시",
+      "accessible": true
+    }
+  ]
+}

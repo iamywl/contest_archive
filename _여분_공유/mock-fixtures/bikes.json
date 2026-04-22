@@ -1,0 +1,74 @@
+{
+  "_mock": true,
+  "_source": "행정안전부·한국지역정보개발원 전국 공영자전거 실시간 (통합 개방 스키마 재현)",
+  "_updated": "2026-04-22T10:31:00+09:00",
+  "totalCount": 6,
+  "items": [
+    {
+      "id": "SEL-0123",
+      "name": "광화문역 3번출구",
+      "operator": "따릉이",
+      "lat": 37.5759,
+      "lng": 126.9764,
+      "totalDocks": 20,
+      "availableBikes": 7,
+      "availableDocks": 13,
+      "status": "active"
+    },
+    {
+      "id": "SEL-0456",
+      "name": "서울시청 서소문관",
+      "operator": "따릉이",
+      "lat": 37.5657,
+      "lng": 126.9757,
+      "totalDocks": 15,
+      "availableBikes": 0,
+      "availableDocks": 15,
+      "status": "active"
+    },
+    {
+      "id": "SEL-0789",
+      "name": "종로3가역 15번출구",
+      "operator": "따릉이",
+      "lat": 37.5713,
+      "lng": 126.9918,
+      "totalDocks": 25,
+      "availableBikes": 18,
+      "availableDocks": 7,
+      "status": "active"
+    },
+    {
+      "id": "SEL-1234",
+      "name": "서울역 15번출구",
+      "operator": "따릉이",
+      "lat": 37.5547,
+      "lng": 126.9707,
+      "totalDocks": 30,
+      "availableBikes": 11,
+      "availableDocks": 19,
+      "status": "active"
+    },
+    {
+      "id": "DJN-0101",
+      "name": "대전 시청앞",
+      "operator": "타슈",
+      "lat": 36.3504,
+      "lng": 127.3845,
+      "totalDocks": 12,
+      "availableBikes": 4,
+      "availableDocks": 8,
+      "status": "active"
+    },
+    {
+      "id": "CWN-0201",
+      "name": "창원 중앙체육공원",
+      "operator": "누비자",
+      "lat": 35.2332,
+      "lng": 128.6811,
+      "totalDocks": 20,
+      "availableBikes": 15,
+      "availableDocks": 5,
+      "status": "active"
+    }
+  ]
+}

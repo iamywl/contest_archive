@@ -1,0 +1,59 @@
+{
+  "_mock": true,
+  "_source": "국토교통부 TAGO 저상버스 실시간 도착 (스키마 재현)",
+  "_updated": "2026-04-22T10:32:15+09:00",
+  "stopId": "23-010",
+  "stopName": "광화문",
+  "lat": 37.5758,
+  "lng": 126.977,
+  "arrivals": [
+    {
+      "routeId": "100100027",
+      "routeNo": "171",
+      "routeType": "간선",
+      "destination": "강남역.우성아파트",
+      "lowFloor": true,
+      "firstArrivalSec": 180,
+      "firstArrivalStops": 3,
+      "secondArrivalSec": 620,
+      "secondArrivalStops": 8,
+      "vehicleId": "서울71사1234"
+    },
+    {
+      "routeId": "100100032",
+      "routeNo": "271",
+      "routeType": "간선",
+      "destination": "은평구청",
+      "lowFloor": true,
+      "firstArrivalSec": 420,
+      "firstArrivalStops": 6,
+      "secondArrivalSec": 1200,
+      "secondArrivalStops": 14,
+      "vehicleId": "서울71사5678"
+    },
+    {
+      "routeId": "100100041",
+      "routeNo": "262",
+      "routeType": "간선",
+      "destination": "부평여객자동차터미널",
+      "lowFloor": false,
+      "firstArrivalSec": 90,
+      "firstArrivalStops": 2,
+      "secondArrivalSec": null,
+      "secondArrivalStops": null,
+      "vehicleId": "인천71사9012"
+    },
+    {
+      "routeId": "100100058",
+      "routeNo": "472",
+      "routeType": "간선",
+      "destination": "강남역",
+      "lowFloor": true,
+      "firstArrivalSec": 300,
+      "firstArrivalStops": 4,
+      "secondArrivalSec": 1500,
+      "secondArrivalStops": 17,
+      "vehicleId": "서울71사3456"
+    }
+  ]
+}
