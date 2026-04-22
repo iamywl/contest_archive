@@ -1,0 +1,58 @@
+{
+  "hospital": [
+    {"emoji": "🩺", "label": "진료", "ko": "진료"},
+    {"emoji": "🏥", "label": "병원", "ko": "병원"},
+    {"emoji": "💊", "label": "약", "ko": "약"},
+    {"emoji": "💉", "label": "주사", "ko": "주사"},
+    {"emoji": "🤒", "label": "열나요", "ko": "열"},
+    {"emoji": "🤕", "label": "머리아파요", "ko": "머리 아프다"},
+    {"emoji": "🦷", "label": "이가아파요", "ko": "이 아프다"},
+    {"emoji": "🫁", "label": "숨차요", "ko": "숨차다"},
+    {"emoji": "🩸", "label": "피", "ko": "피"},
+    {"emoji": "😣", "label": "많이아파요", "ko": "많이 아프다"},
+    {"emoji": "🙂", "label": "괜찮아요", "ko": "괜찮다"},
+    {"emoji": "💧", "label": "물", "ko": "물"}
+  ],
+  "school": [
+    {"emoji": "🏫", "label": "학교", "ko": "학교"},
+    {"emoji": "📚", "label": "책", "ko": "책"},
+    {"emoji": "✏️", "label": "공부", "ko": "공부"},
+    {"emoji": "🧑‍🏫", "label": "선생님", "ko": "선생님"},
+    {"emoji": "👦", "label": "친구", "ko": "친구"},
+    {"emoji": "🚻", "label": "화장실", "ko": "화장실"},
+    {"emoji": "🍱", "label": "급식", "ko": "급식"},
+    {"emoji": "🥛", "label": "우유", "ko": "우유"},
+    {"emoji": "📝", "label": "숙제", "ko": "숙제"},
+    {"emoji": "🎒", "label": "가방", "ko": "가방"},
+    {"emoji": "🎨", "label": "미술", "ko": "미술"},
+    {"emoji": "⚽", "label": "체육", "ko": "체육"}
+  ],
+  "office": [
+    {"emoji": "🏛️", "label": "관공서", "ko": "관공서"},
+    {"emoji": "🪪", "label": "신분증", "ko": "신분증"},
+    {"emoji": "📄", "label": "서류", "ko": "서류"},
+    {"emoji": "✍️", "label": "작성", "ko": "작성"},
+    {"emoji": "🧾", "label": "영수증", "ko": "영수증"},
+    {"emoji": "💳", "label": "카드", "ko": "카드"},
+    {"emoji": "🔢", "label": "번호표", "ko": "번호표"},
+    {"emoji": "🧍", "label": "기다려요", "ko": "기다리다"},
+    {"emoji": "❓", "label": "질문", "ko": "질문"},
+    {"emoji": "📞", "label": "전화", "ko": "전화"},
+    {"emoji": "🏦", "label": "은행", "ko": "은행"},
+    {"emoji": "📮", "label": "우체국", "ko": "우체국"}
+  ],
+  "family": [
+    {"emoji": "👪", "label": "가족", "ko": "가족"},
+    {"emoji": "👩", "label": "엄마", "ko": "엄마"},
+    {"emoji": "👨", "label": "아빠", "ko": "아빠"},
+    {"emoji": "🧒", "label": "나", "ko": "나"},
+    {"emoji": "🏠", "label": "집", "ko": "집"},
+    {"emoji": "🛏️", "label": "자다", "ko": "자다"},
+    {"emoji": "🍽️", "label": "밥", "ko": "밥"},
+    {"emoji": "🚿", "label": "씻다", "ko": "씻다"},
+    {"emoji": "📺", "label": "TV", "ko": "TV 보다"},
+    {"emoji": "🥰", "label": "좋아요", "ko": "좋다"},
+    {"emoji": "😢", "label": "슬퍼요", "ko": "슬프다"},
+    {"emoji": "🤗", "label": "안아주세요", "ko": "안아주다"}
+  ]
+}
