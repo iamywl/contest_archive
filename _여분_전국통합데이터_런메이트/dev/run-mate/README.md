@@ -23,3 +23,12 @@ pnpm build  # 필수 통과
 - `_여분_공유/lib/public-api-proxy.ts` — 캐시·SWR·mock 폴백
 - `_여분_공유/mock-fixtures/*.json` — 인증키 부재 시 폴백
 - `_여분_공유/tailwind-a11y.config.ts` — a11y 토큰 참조
+
+## 빌드 검증
+
+| 일자 | 명령 | 결과 | 라우트 |
+|---|---|---|---|
+| 2026-04-21 | `pnpm build` (Next 16.2.4 + Turbopack) | ✅ 성공 | `/`, `/course`, `/api/{aq,weather,bikes,signal}` |
+
+- 페이지 2종(홈·코스 지도) + API 라우트 4종 모두 프로덕션 번들에 포함.
+- Mock 폴백 전용 구성 — 인증키 없이 시연 가능.
