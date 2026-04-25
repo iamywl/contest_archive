@@ -1,0 +1,74 @@
+{
+  "_mock": true,
+  "_source": "행정안전부 공중화장실 현황 (기저귀교환대·유아좌변기 속성 포함, 스키마 재현)",
+  "_updated": "2026-04-22T10:30:00+09:00",
+  "totalCount": 6,
+  "items": [
+    {
+      "id": "TL-11-001",
+      "name": "광화문광장 공중화장실",
+      "address": "서울 종로구 세종대로 175",
+      "lat": 37.5724,
+      "lng": 126.9769,
+      "babyChange": true,
+      "kidsToilet": true,
+      "accessible": true,
+      "open24h": true
+    },
+    {
+      "id": "TL-11-002",
+      "name": "서울시청 공중화장실",
+      "address": "서울 중구 세종대로 110",
+      "lat": 37.5663,
+      "lng": 126.9779,
+      "babyChange": true,
+      "kidsToilet": false,
+      "accessible": true,
+      "open24h": false
+    },
+    {
+      "id": "TL-11-003",
+      "name": "남산공원 공중화장실",
+      "address": "서울 중구 삼일대로 231",
+      "lat": 37.5563,
+      "lng": 126.9884,
+      "babyChange": false,
+      "kidsToilet": false,
+      "accessible": true,
+      "open24h": true
+    },
+    {
+      "id": "TL-11-004",
+      "name": "청계천 청계광장 화장실",
+      "address": "서울 중구 태평로1가 31",
+      "lat": 37.5693,
+      "lng": 126.9783,
+      "babyChange": true,
+      "kidsToilet": true,
+      "accessible": true,
+      "open24h": true
+    },
+    {
+      "id": "TL-11-005",
+      "name": "덕수궁 공중화장실",
+      "address": "서울 중구 세종대로 99",
+      "lat": 37.5655,
+      "lng": 126.9751,
+      "babyChange": false,
+      "kidsToilet": false,
+      "accessible": false,
+      "open24h": false
+    },
+    {
+      "id": "TL-11-006",
+      "name": "서울도서관 공중화장실",
+      "address": "서울 중구 세종대로 110",
+      "lat": 37.5662,
+      "lng": 126.9776,
+      "babyChange": true,
+      "kidsToilet": true,
+      "accessible": true,
+      "open24h": false
+    }
+  ]
+}

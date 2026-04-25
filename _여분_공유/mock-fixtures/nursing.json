@@ -1,0 +1,68 @@
+{
+  "_mock": true,
+  "_source": "여성가족부 전국 수유실 위치 (스키마 재현)",
+  "_updated": "2026-04-22T10:30:00+09:00",
+  "totalCount": 5,
+  "items": [
+    {
+      "id": "NR-11-001",
+      "name": "서울시청 수유실",
+      "address": "서울 중구 세종대로 110 본관 3층",
+      "lat": 37.5664,
+      "lng": 126.9779,
+      "hasNursingRoom": true,
+      "hasBabyChange": true,
+      "hasWarmer": true,
+      "menOk": false,
+      "operatingHours": "평일 09:00-18:00"
+    },
+    {
+      "id": "NR-11-002",
+      "name": "광화문 KT사옥 수유실",
+      "address": "서울 종로구 세종대로 178",
+      "lat": 37.5725,
+      "lng": 126.9768,
+      "hasNursingRoom": true,
+      "hasBabyChange": true,
+      "hasWarmer": true,
+      "menOk": true,
+      "operatingHours": "09:00-22:00"
+    },
+    {
+      "id": "NR-11-003",
+      "name": "롯데백화점 본점 수유실",
+      "address": "서울 중구 남대문로 81",
+      "lat": 37.5651,
+      "lng": 126.9812,
+      "hasNursingRoom": true,
+      "hasBabyChange": true,
+      "hasWarmer": true,
+      "menOk": false,
+      "operatingHours": "10:30-20:00"
+    },
+    {
+      "id": "NR-11-004",
+      "name": "서울도서관 수유실",
+      "address": "서울 중구 세종대로 110",
+      "lat": 37.5662,
+      "lng": 126.9776,
+      "hasNursingRoom": true,
+      "hasBabyChange": true,
+      "hasWarmer": false,
+      "menOk": false,
+      "operatingHours": "09:00-21:00"
+    },
+    {
+      "id": "NR-11-005",
+      "name": "남산 N서울타워 수유실",
+      "address": "서울 용산구 남산공원길 105",
+      "lat": 37.5512,
+      "lng": 126.9882,
+      "hasNursingRoom": true,
+      "hasBabyChange": true,
+      "hasWarmer": true,
+      "menOk": true,
+      "operatingHours": "10:00-23:00"
+    }
+  ]
+}

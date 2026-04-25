@@ -1,0 +1,14 @@
+{
+  "note": "Mock fixture — 서울 관악구 신림역 일대 공공 CCTV 샘플. 실데이터 아님.",
+  "center": { "lat": 37.4842, "lng": 126.9293 },
+  "items": [
+    { "id": "cctv-1", "type": "cctv", "lat": 37.4845, "lng": 126.9298, "name": "신림역 2번출구" },
+    { "id": "cctv-2", "type": "cctv", "lat": 37.4851, "lng": 126.9305, "name": "신림역 교차로" },
+    { "id": "cctv-3", "type": "cctv", "lat": 37.4862, "lng": 126.9312, "name": "난곡로 초입" },
+    { "id": "cctv-4", "type": "cctv", "lat": 37.4875, "lng": 126.9320, "name": "신원초교 앞" },
+    { "id": "cctv-5", "type": "cctv", "lat": 37.4889, "lng": 126.9328, "name": "남현동 사거리" },
+    { "id": "cctv-6", "type": "cctv", "lat": 37.4838, "lng": 126.9280, "name": "신림로 버스정류장" },
+    { "id": "cctv-7", "type": "cctv", "lat": 37.4818, "lng": 126.9275, "name": "골목길 CCTV 01" },
+    { "id": "cctv-8", "type": "cctv", "lat": 37.4858, "lng": 126.9260, "name": "주택가 CCTV 02" }
+  ]
+}

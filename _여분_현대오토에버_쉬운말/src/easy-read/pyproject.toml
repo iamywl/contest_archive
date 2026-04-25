@@ -1,0 +1,39 @@
+[project]
+name = "easy-read"
+version = "0.1.0"
+description = "쉬운말 (Easy-Read) — 공문서 OCR → 로컬 LLM 쉬운글 변환 → 픽토그램 + TTS Streamlit PoC"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.36",
+    "pillow>=10.0",
+    "numpy>=1.26",
+    "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+ocr = [
+    "paddleocr>=2.7",
+    "paddlepaddle>=2.6",
+    "pytesseract>=0.3.10",
+]
+pdf = [
+    "pymupdf>=1.24",
+]
+tts = [
+    "pyttsx3>=2.90",
+]
+dev = [
+    "ruff>=0.5",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+only-include = ["app.py", "pipeline", "prompts", "data"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

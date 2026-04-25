@@ -25,12 +25,21 @@ export default function RootLayout({
             <Link href="/" className="text-base font-bold text-[color:var(--color-primary)]">
               런메이트
             </Link>
-            <nav className="flex gap-4 text-sm font-medium text-slate-600">
+            <nav className="flex flex-wrap gap-3 text-sm font-medium text-slate-600">
               <Link href="/" className="hover:text-[color:var(--color-primary)]">
                 신호등
               </Link>
               <Link href="/course" className="hover:text-[color:var(--color-primary)]">
                 코스 지도
+              </Link>
+              <Link href="/builder" className="hover:text-[color:var(--color-primary)]">
+                AI 코스 빌더
+              </Link>
+              <Link href="/log" className="hover:text-[color:var(--color-primary)]">
+                기록
+              </Link>
+              <Link href="/crew" className="hover:text-[color:var(--color-primary)]">
+                크루
               </Link>
             </nav>
           </div>

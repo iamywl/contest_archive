@@ -1,0 +1,68 @@
+{
+  "_mock": true,
+  "_source": "국토교통부·한국토지주택공사 도시공원 (스키마 재현)",
+  "_updated": "2026-04-22T10:30:00+09:00",
+  "totalCount": 5,
+  "items": [
+    {
+      "id": "PK-P-11-001",
+      "name": "서울광장",
+      "address": "서울 중구 태평로1가 31",
+      "lat": 37.5664,
+      "lng": 126.9779,
+      "playground": false,
+      "strollerOk": true,
+      "shade": false,
+      "restroom": true,
+      "openType": "open"
+    },
+    {
+      "id": "PK-P-11-002",
+      "name": "남산공원",
+      "address": "서울 중구 삼일대로 231",
+      "lat": 37.5506,
+      "lng": 126.9909,
+      "playground": true,
+      "strollerOk": true,
+      "shade": true,
+      "restroom": true,
+      "openType": "open"
+    },
+    {
+      "id": "PK-P-11-003",
+      "name": "광화문광장",
+      "address": "서울 종로구 세종대로 175",
+      "lat": 37.5724,
+      "lng": 126.9769,
+      "playground": false,
+      "strollerOk": true,
+      "shade": false,
+      "restroom": true,
+      "openType": "open"
+    },
+    {
+      "id": "PK-P-11-004",
+      "name": "청계천 청계광장",
+      "address": "서울 중구 태평로1가 31",
+      "lat": 37.5693,
+      "lng": 126.9783,
+      "playground": false,
+      "strollerOk": true,
+      "shade": true,
+      "restroom": true,
+      "openType": "open"
+    },
+    {
+      "id": "PK-P-11-005",
+      "name": "월드컵공원 평화의공원",
+      "address": "서울 마포구 월드컵로 243-60",
+      "lat": 37.5711,
+      "lng": 126.8975,
+      "playground": true,
+      "strollerOk": true,
+      "shade": true,
+      "restroom": true,
+      "openType": "open"
+    }
+  ]
+}

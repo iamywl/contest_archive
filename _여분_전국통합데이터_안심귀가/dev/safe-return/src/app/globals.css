@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+:root {
+  --background: #0f0f14;
+  --foreground: #f8f8fa;
+  --card: #1c1c24;
+  --muted: #9ca3af;
+  --border: #2a2a33;
+  --primary: #7c3aed;
+  --primary-foreground: #ffffff;
+  --ok: #10b981;
+  --warn: #f59e0b;
+  --bad: #ef4444;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-ok: var(--ok);
+  --color-warn: var(--warn);
+  --color-bad: var(--bad);
+}
+
+html,
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR",
+    Roboto, "Apple SD Gothic Neo", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.leaflet-container {
+  z-index: 0;
+  background: #1c1c24;
+}

@@ -1,0 +1,60 @@
+{
+  "_mock": true,
+  "_source": "문화체육관광부 전국 어린이도서관 (도서관 정보나루 스키마 재현)",
+  "_updated": "2026-04-22T10:30:00+09:00",
+  "totalCount": 4,
+  "items": [
+    {
+      "id": "LB-11-001",
+      "name": "서울도서관",
+      "address": "서울 중구 세종대로 110",
+      "lat": 37.5662,
+      "lng": 126.9776,
+      "kidsRoom": true,
+      "seats": 120,
+      "occupied": 58,
+      "strollerOk": true,
+      "operatingHours": "화-일 09:00-21:00",
+      "closedDay": "월"
+    },
+    {
+      "id": "LB-11-002",
+      "name": "종로구립 청운문학도서관",
+      "address": "서울 종로구 자하문로36길 40",
+      "lat": 37.5867,
+      "lng": 126.9696,
+      "kidsRoom": true,
+      "seats": 60,
+      "occupied": 12,
+      "strollerOk": true,
+      "operatingHours": "화-일 09:00-22:00",
+      "closedDay": "월"
+    },
+    {
+      "id": "LB-11-003",
+      "name": "국립어린이청소년도서관",
+      "address": "서울 강남구 테헤란로7길 21",
+      "lat": 37.5005,
+      "lng": 127.0335,
+      "kidsRoom": true,
+      "seats": 180,
+      "occupied": 150,
+      "strollerOk": true,
+      "operatingHours": "화-일 09:00-18:00",
+      "closedDay": "월"
+    },
+    {
+      "id": "LB-11-004",
+      "name": "마포중앙도서관 어린이실",
+      "address": "서울 마포구 월드컵로 212",
+      "lat": 37.5667,
+      "lng": 126.9016,
+      "kidsRoom": true,
+      "seats": 80,
+      "occupied": 30,
+      "strollerOk": true,
+      "operatingHours": "평일 09:00-22:00 / 주말 09:00-17:00",
+      "closedDay": "월"
+    }
+  ]
+}
